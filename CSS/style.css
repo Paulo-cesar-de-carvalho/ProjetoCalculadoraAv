@@ -1,0 +1,27 @@
+
+
+body{
+    background-color: rgb(114, 114, 219);
+    max-width: 480px;
+    border: solid;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+p{
+    margin: 2em 2px;
+}
+
+li{
+    margin: 25px 2px;
+}
+
+.botao{
+    margin: 0px 12px;
+    width: 200px;
+    text-align: center;
+}
+
+
