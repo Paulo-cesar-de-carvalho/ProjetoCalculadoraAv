@@ -12,8 +12,8 @@
         <h1>Cálculo de Densidade</h1>
     </header>
     <main>
-        <p><label for="peso-ar">Informe o peso no ar: </label><input type="number" name="Peso-na-Água" id="peso-ar" placeholder="em gramas"></p>
-        <p><label for="peso-agua">Informe o peso na água: </label><input type="number" name="Peso-na-Água" id="peso-agua" placeholder="em gramas"></p>
+        <p><label for="peso-ar">Informe o peso no ar: </label><input type="number" name="Peso-na-Água" id="peso-ar" placeholder="em gramas" class="campos"></p>
+        <p><label for="peso-agua">Informe o peso na água: </label><input type="number" name="Peso-na-Água" id="peso-agua" placeholder="em gramas" class="campos"></p>
         <p>Densidade Calculada: <span id="densidade">________</span></p>
         <p><input type="button" value="Limpar" class="botao" id="btn-limpar"></p>
     </main>
@@ -44,6 +44,7 @@
         botaoLimpar.addEventListener("click", function(){
             pesoAgua.value = ""
             pesoAr.value = ""
+            densCalc.innerText = "________"
         })
 
         
